@@ -41,6 +41,8 @@ ratings_with_name = df_rating.merge(df_book, on='ISBN')
 ratings_with_name.head()
 
 data = ratings_with_name.merge(df_users.drop("Age", axis=1), on="user_id")
+
+data.to_csv('novo_dados.csv', index=False)
 data.head()
 
 data['Location'] = data['Location'].str.split(',').str[-1].str.strip()
