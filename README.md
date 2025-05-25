@@ -4,6 +4,8 @@
 
 ### O sistema combina dados de três fontes principais (books.csv, ratings.csv e users.csv) para construir um modelo de recomendação. Após selecionar um usuário e um dos livros que ele já leu, o sistema utiliza o algoritmo K-Nearest Neighbors (KNN) para encontrar livros semelhantes que outros usuários com gostos parecidos também leram.
 
+![Captura de tela 2025-05-24 224606](https://github.com/user-attachments/assets/30f3d4bb-1fbb-4a2f-96ec-c087d497997e)
+
 ## 🧠 Funcionalidades
 ### Leitura e pré-processamento de dados (remoção de duplicatas, limpeza de colunas).
 
