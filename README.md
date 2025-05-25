@@ -25,18 +25,14 @@
 ## 🚀 Como executar
 ### 1- Clone este repositório:
 ````
-```
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
-```
 ````
 
 ### 2- Instale as dependências necessárias
 
 ### 3- Execute o sistema:
 ````
-```
 streamlit run trab_final.py
-```
 ````
 
 ## 🛠️ Tecnologias utilizadas
